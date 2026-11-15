@@ -1,0 +1,141 @@
+:root {
+  --dark: #27221a;
+  --amber: #d2942d;
+  --cream: #f7f1e6;
+  --text: #3a3226;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--dark), #3a3022);
+  color: #fff;
+  padding: 5rem 1.5rem;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.hero-tag {
+  color: var(--amber);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin: 0 0 0.5rem;
+}
+
+.hero h2 {
+  font-size: 1.3rem;
+  color: var(--amber);
+  margin: 0 0 1.5rem;
+  font-weight: 500;
+}
+
+.hero-text {
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.8rem;
+  background: var(--amber);
+  color: var(--dark);
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.section h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--dark);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(39, 34, 26, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.card h4 {
+  margin: 0 0 0.5rem;
+  color: var(--dark);
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #5c5343;
+}
+
+.objectif {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(39, 34, 26, 0.08);
+  text-align: center;
+}
+
+.objectif p {
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--dark);
+  color: #cfc6b4;
+  font-size: 0.85rem;
+}
